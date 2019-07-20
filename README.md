@@ -7,6 +7,9 @@ This project is using
   - opencv
   - CV libraries
   
+## Generated data example
+![alt text](https://raw.githubusercontent.com/hugofloter/CardsCVML/master/data_ex/hand_ex.jpg)
+  
   
 ## Explanation
 1. Define the alphamask
