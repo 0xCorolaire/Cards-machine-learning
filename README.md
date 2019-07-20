@@ -11,13 +11,13 @@ This project is using
 ![alt text](https://raw.githubusercontent.com/hugofloter/CardsCVML/master/data_ex/hand_ex.jpg)
   
  
-## Train cards with YOLOv3 and the generated datasets
-### A. use YOLO on google colab
-
+## Train cards with YOLOv3 OR/AND Tensorflow and the generated datasets
+### A. use Tensorflow on google colab
+### B. Use YOLO 
 Check YOLO ipny and complete the setup indicated in the file
 
-## B. Run the train and export  frozen model.pb
-## C. result
+## B. Run the train and export  frozen model.pb with tf
+## C. result with tf
 here are the result at step 170k
 
 ![alt text](https://raw.githubusercontent.com/hugofloter/CardsCVML/master/data_ex/ML/result3.jpg)
