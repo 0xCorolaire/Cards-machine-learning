@@ -13,9 +13,6 @@ This project is using
  
 ## Train cards with YOLOv3 OR/AND Tensorflow and the generated datasets
 ### A. use Tensorflow on google colab
-### B. Use YOLO 
-Check YOLO ipny and complete the setup indicated in the file
-
 ## B. Run the train and export  frozen model.pb with tf
 ## C. result with tf
 here are the result at step 170k
