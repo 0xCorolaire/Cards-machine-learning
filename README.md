@@ -6,7 +6,26 @@ This project is using
   - python 3.6.7 and several libraries
   - opencv
   - CV libraries
+  - imgaug
   
+For full project go to **DatasetCreator.ipynb**
+
+## Quick resume
+#### 1: extract cards from videos 
+![png](data_ex/output_17_2.png)
+
+#### 2 : Get top and bottom corner
+![png](data_ex/output_20_1.png)
+
+#### 3 : affine selection by convexing select
+
+![png](data_ex/output_23_1.png)
+
+#### 4 : generate scenes with bbox's
+
+![png](data_ex/output_32_1.png)
+
+
 ## Generated data example
 ![alt text](https://raw.githubusercontent.com/hugofloter/CardsCVML/master/data_ex/hand_ex.jpg)
   
