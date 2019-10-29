@@ -15,15 +15,15 @@ For full project go to **DatasetCreator.ipynb**
 ![png](data_ex/output_17_2.png)
 
 #### 2 : Get top and bottom corner
-![png](data_ex/output_20_1.png)
+![png](data_ex/fiirst.png)
 
 #### 3 : affine selection by convexing select
 
-![png](data_ex/output_23_1.png)
+![png](data_ex/secondd.png)
 
 #### 4 : generate scenes with bbox's
 
-![png](data_ex/output_32_1.png)
+![png](data_ex/thirddd.png)
 
 
 ## Generated data example
