@@ -54,7 +54,7 @@ In an R-CNN algorithm, we feed the input image to the CNN to generate a convolut
 
 
 ## C. result with tf
-here are the result at step 170k
+here are the result at step 50k
 
 ![alt text](https://raw.githubusercontent.com/hugofloter/CardsCVML/master/data_ex/ML/result3.jpg)
 ![alt text](https://raw.githubusercontent.com/hugofloter/CardsCVML/master/data_ex/ML/result1.jpg)
