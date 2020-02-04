@@ -12,16 +12,26 @@ For full project go to **DatasetCreator.ipynb**
 
 ## Quick resume
 #### 1 : extract cards from videos 
+- Load video from phone or camera
+- use cv2 lib to capture video and find countours of card
+
 ![png](data_ex/output_17_2.png)  <!-- .element height="50%" width="50%" -->
 
 #### 2 : Get top and bottom corner
+- cv2 to check both corners to match the entire sign
+- idea is to label all sign of the card
+
 ![png](data_ex/fiirst.png)  <!-- .element height="50%" width="50%" -->
 
 #### 3 : affine selection by convexing select
+- using opencv findCountours functions and aprox
 
 ![png](data_ex/secondd.png)  <!-- .element height="50%" width="50%" -->
 
 #### 4 : generate scenes with bbox's
+- Load background random dataset
+- Load all card from pickle file and store them in a var
+- use imgaug and shapely to transform image using img transformation for card and BoundingBoxes
 
 ![png](data_ex/thirddd.png)  <!-- .element height="50%" width="50%" -->
 
@@ -37,14 +47,14 @@ CNNs take advantage of the hierarchical pattern in data and assemble more comple
 
 The hidden layers are mostly convolutional layers : 
 + Input is a tensor with shape (number of images) x (image width) x (image height) x (image depth).
-+ Convolutional kernels whose width and height are hyper-parameters, and whose depth must be equal to that of the image
++ Convolutional kernels whose width and height are hyper-parameters, and whose depth must be equal to that of the image => using image convulution to reduce dimension
 + Convolutional networks may include local or global pooling layers to streamline the underlying computation. Pooling layers reduce the dimensions of the data by combining the outputs of neuron clusters at one layer into a single neuron in the next layer
 + Activation layers :  **ReLu layers**  that removes negative values from an activation map by setting them to zero and maight be some **Pooling layers**
 
 
 ### A. Used algorithm : Faster R-CNN Inception V2
 
-In an R-CNN algorithm, we feed the input image to the CNN to generate a convolutional feature map
+In the R-CNN algorithm, we feed the input image to the CNN to generate a convolutional feature map
 
 ### B. use Tensorflow on google colab
 
