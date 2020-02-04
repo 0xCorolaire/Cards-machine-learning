@@ -11,23 +11,23 @@ This project is using
 For full project go to **DatasetCreator.ipynb**
 
 ## Quick resume
-#### 1: extract cards from videos 
-![png](data_ex/output_17_2.png)
+#### 1 : extract cards from videos 
+![png](data_ex/output_17_2.png)  <!-- .element height="50%" width="50%" -->
 
 #### 2 : Get top and bottom corner
-![png](data_ex/fiirst.png)
+![png](data_ex/fiirst.png)  <!-- .element height="50%" width="50%" -->
 
 #### 3 : affine selection by convexing select
 
-![png](data_ex/secondd.png)
+![png](data_ex/secondd.png)  <!-- .element height="50%" width="50%" -->
 
 #### 4 : generate scenes with bbox's
 
-![png](data_ex/thirddd.png)
+![png](data_ex/thirddd.png)  <!-- .element height="50%" width="50%" -->
 
 
 ## Generated data example
-![alt text](https://raw.githubusercontent.com/hugofloter/CardsCVML/master/data_ex/hand_ex.jpg)
+![alt text](https://raw.githubusercontent.com/hugofloter/CardsCVML/master/data_ex/hand_ex.jpg)  <!-- .element height="50%" width="50%" -->
   
  
 ## Train cards with Tensorflow and the generated datasets
@@ -48,15 +48,17 @@ In an R-CNN algorithm, we feed the input image to the CNN to generate a convolut
 
 ### B. use Tensorflow on google colab
 
-
-## C. Run the train and export  frozen model.pb with tf
-
-
+Setup environnement, CuDa and so on on a jupyter collab file and run model
+Then, we run the train and export frozen model.pb with tf
 
 ## C. result with tf
+Analysis can be found : https://github.com/hugofloter/Cards-machine-learning/blob/master/analyse_tensorflow.ipynb
+
+**F1 score obtained : 0.8125**
+
 here are the result at step 50k
 
-![alt text](https://raw.githubusercontent.com/hugofloter/CardsCVML/master/data_ex/ML/result3.jpg)
-![alt text](https://raw.githubusercontent.com/hugofloter/CardsCVML/master/data_ex/ML/result1.jpg)
-![alt text](https://raw.githubusercontent.com/hugofloter/CardsCVML/master/data_ex/ML/result2.jpg)
-![alt text](https://raw.githubusercontent.com/hugofloter/CardsCVML/master/data_ex/ML/result4.jpg)
+![alt text](https://raw.githubusercontent.com/hugofloter/CardsCVML/master/data_ex/ML/result3.jpg)  <!-- .element height="50%" width="50%" -->
+![alt text](https://raw.githubusercontent.com/hugofloter/CardsCVML/master/data_ex/ML/result1.jpg)  <!-- .element height="50%" width="50%" --> 
+![alt text](https://raw.githubusercontent.com/hugofloter/CardsCVML/master/data_ex/ML/result2.jpg)  <!-- .element height="50%" width="50%" -->
+![alt text](https://raw.githubusercontent.com/hugofloter/CardsCVML/master/data_ex/ML/result4.jpg)  <!-- .element height="50%" width="50%" -->
